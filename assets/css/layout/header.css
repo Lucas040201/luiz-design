@@ -1,0 +1,27 @@
+.header-top {
+    border: 1px solid var(--gray-light-100);
+    padding-top: 1.649rem;
+    padding-bottom: 1.756rem;
+}
+
+.hedaer-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-top-brand {
+    padding-left: 4.5rem;
+}
+
+.header-top-brand img {
+    width: 100%;
+    max-width: 16rem;
+    height: 4.095rem;
+}
+
+.header-top-item {
+    padding: 1.5rem 2rem;
+    margin-left: 2rem;
+}

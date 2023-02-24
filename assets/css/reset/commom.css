@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url('../../fonts/archivo/Archivo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Archivo Bold';
+    src: url('../../fonts/archivo/Archivo-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../../fonts/inter/Inter-Regular.ttf');
+}
+
+
+:root {
+    --accent: #FFD300;
+    --yellow-light: #FFEB8A;
+    --yellow-dark: #806900;
+    --white: #FFF;
+    --black: #000;
+    --body-color: #F9F9F9;
+    --gray-light-100: #D3D3D1;
+    --gray-light-50: #DDD;
+    --gray-200: #909090;
+    --gray-light-200: #6C6C6C;
+    --gray-light-300: #4B4A4B;
+    --gray-dark: #121212;
+    --archivo-default: 'Archivo', sans-serif;
+    --archivo-bold: 'Archivo Bold', sans-serif;
+    --inter-default: 'Inter', sans-serif;
+ }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+.wrapper {
+    max-width: 115rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
